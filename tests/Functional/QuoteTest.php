@@ -2,7 +2,7 @@
 
 namespace Tests\Functional;
 
-QuoteTest extends BaseTestCase
+class QuoteTest extends BaseTestCase
 {
     public function testNumberOfCategories(){
         $quote = new \Quote(null, null);
